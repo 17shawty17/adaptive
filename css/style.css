@@ -1,0 +1,195 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import "reset.css";
+
+:root{
+    --color-title: #070707;
+    --color-secondary: #828282;
+    --font-main-md: 'Gilroy-Medium', sans-serif;
+    --font-main-bold: 'Gilroy-Bold', sans-serif;
+}
+
+.about{
+    background: #F6F6F6;
+    max-width: 1445px;
+    margin:auto;
+}
+
+.title{
+    color: var(--color-title);
+    font-family: var(--font-main-bold);
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.about__description{
+    margin: auto;
+    color: var(--color-title);
+    font-family: var(--font-main-md);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 485.344px;
+    padding-top: 20px;
+    padding-bottom: 107px;
+}
+
+.about__description-item{
+    margin-bottom: 49px;
+    text-align: center;
+    line-height: normal;
+}
+
+.about__description-item3{
+    max-width: 317px;
+    margin: auto;
+}
+
+.skills{
+    max-width: 1445px;
+    margin: auto;
+    padding-top: 91px;
+}
+
+.skills__subtitle{
+    text-align: center;
+    color: var(--color-title);
+    font-family: var(--font-main-md);
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 69.1px;
+}
+
+.skills__programs{
+    margin: 83.49px auto;
+    margin-bottom: 0;
+    max-width: 936.59px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills__program{
+    height: 206.29px;
+    width: 166.461px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills__program-name{
+    color: var(--color-secondary);
+    font-family: var(--font-main-bold);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70.29px;
+    text-align: center;
+}
+
+.skills__program-name-ae{
+    color: var(--color-secondary);
+    font-family: var(--font-main-bold);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80.29px;
+    text-align: center;
+}
+
+.contacts {
+    max-width: 1445px;
+    margin: auto;
+    padding-top: 153.06px;
+}
+
+.contacts__description {
+    margin: 20.03px auto;
+    margin-bottom: 0;
+    max-width: 275.142px;
+    color: var(--color-title);
+    text-align: center;
+    font-family: var(--font-main-md);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.contacts__btn {
+    width: 180.5px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 29.6px auto;
+    margin-bottom: 0;
+    background-color: var(--color-title);
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-main-bold);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    max-width: 1445px;
+    margin: auto;
+    padding-top: 85.78px;
+    padding-bottom: 12.44px;
+}
+.footer__icons {
+    max-width: 345px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__text {
+    max-width: 243.009px;
+    margin: 45.98px auto;
+    margin-bottom: 0;
+    color: var(--color-secondary);
+    text-align: center;
+    font-family: var(--font-main-md);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width:375px){
+    .about{
+        padding-top: 74.8px;
+    }
+    .about__description{
+        max-width: 316px;
+        margin-top: 36.43px;
+        margin-bottom: 76px;
+    }
+    .skills{
+        margin-top: 73.46px;
+
+    }
+    .skills__subtitle{
+        margin-top: 49.66px;
+    }
+    .skills__programs{
+        margin-top: 70.48px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__program{
+        margin-bottom: 69.06px;
+    }
+    .contacts__btn{
+        width: 316px;
+    }
+}
